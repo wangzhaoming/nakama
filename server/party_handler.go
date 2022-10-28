@@ -20,8 +20,8 @@ import (
 	"sync"
 
 	"github.com/gofrs/uuid"
-	"github.com/heroiclabs/nakama-common/rtapi"
-	"github.com/heroiclabs/nakama-common/runtime"
+	"github.com/wangzhaoming/nakama-common/rtapi"
+	"github.com/wangzhaoming/nakama-common/runtime"
 	"go.uber.org/zap"
 )
 

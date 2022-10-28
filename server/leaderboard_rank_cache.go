@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	"github.com/heroiclabs/nakama-common/api"
 	"github.com/heroiclabs/nakama/v3/internal/skiplist"
+	"github.com/wangzhaoming/nakama-common/api"
 	"go.uber.org/zap"
 )
 

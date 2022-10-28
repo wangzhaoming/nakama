@@ -1,6 +1,6 @@
 module github.com/heroiclabs/nakama/v3
 
-go 1.18
+go 1.19
 
 require (
 	github.com/blugelabs/bluge v0.2.2
@@ -13,7 +13,6 @@ require (
 	github.com/gorilla/mux v1.8.0
 	github.com/gorilla/websocket v1.5.0
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.11.3
-	github.com/heroiclabs/nakama-common v1.25.0
 	github.com/jackc/pgconn v1.13.0
 	github.com/jackc/pgerrcode v0.0.0-20220416144525-469b46aa5efa
 	github.com/jackc/pgtype v1.12.0
@@ -21,6 +20,7 @@ require (
 	github.com/rubenv/sql-migrate v1.2.0
 	github.com/stretchr/testify v1.8.0
 	github.com/uber-go/tally/v4 v4.1.3
+	github.com/wangzhaoming/nakama-common v0.0.0-20221028062515-dd9311b36fee
 	go.uber.org/atomic v1.10.0
 	go.uber.org/zap v1.23.0
 	golang.org/x/crypto v0.0.0-20221012134737-56aed061732a

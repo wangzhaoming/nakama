@@ -93,8 +93,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/heroiclabs/nakama-common/api"
-	"github.com/heroiclabs/nakama-common/rtapi"
+	"github.com/wangzhaoming/nakama-common/api"
+	"github.com/wangzhaoming/nakama-common/rtapi"
 )
 
 const (

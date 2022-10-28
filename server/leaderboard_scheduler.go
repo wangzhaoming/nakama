@@ -17,7 +17,7 @@ package server
 import (
 	"context"
 	"database/sql"
-	"github.com/heroiclabs/nakama-common/api"
+	"github.com/wangzhaoming/nakama-common/api"
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"sync"
 	"time"

@@ -29,10 +29,10 @@ import (
 	"sync"
 
 	"github.com/gofrs/uuid"
-	"github.com/heroiclabs/nakama-common/api"
-	"github.com/heroiclabs/nakama-common/rtapi"
 	lua "github.com/heroiclabs/nakama/v3/internal/gopher-lua"
 	"github.com/heroiclabs/nakama/v3/social"
+	"github.com/wangzhaoming/nakama-common/api"
+	"github.com/wangzhaoming/nakama-common/rtapi"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 	"google.golang.org/grpc/codes"

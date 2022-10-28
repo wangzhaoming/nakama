@@ -19,7 +19,7 @@ import (
 	"errors"
 
 	"github.com/gofrs/uuid"
-	"github.com/heroiclabs/nakama-common/rtapi"
+	"github.com/wangzhaoming/nakama-common/rtapi"
 	"go.uber.org/zap"
 )
 

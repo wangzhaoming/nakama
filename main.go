@@ -99,6 +99,10 @@ func main() {
 
 	config := server.ParseArgs(tmpLogger, os.Args)
 	logger, startupLogger := server.SetupLogging(tmpLogger, config)
+
+	// 注册全局logger
+	zap.ReplaceGlobals(logger)
+
 	configWarnings := server.CheckConfig(logger, config)
 
 	startupLogger.Info("Nakama starting")

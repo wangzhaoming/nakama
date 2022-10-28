@@ -23,10 +23,10 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	"github.com/heroiclabs/nakama-common/api"
-	"github.com/heroiclabs/nakama-common/rtapi"
-	"github.com/heroiclabs/nakama-common/runtime"
 	"github.com/jackc/pgtype"
+	"github.com/wangzhaoming/nakama-common/api"
+	"github.com/wangzhaoming/nakama-common/rtapi"
+	"github.com/wangzhaoming/nakama-common/runtime"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"google.golang.org/protobuf/types/known/wrapperspb"

@@ -24,9 +24,9 @@ import (
 
 	"github.com/blugelabs/bluge"
 	"github.com/gofrs/uuid"
-	"github.com/heroiclabs/nakama-common/rtapi"
-	"github.com/heroiclabs/nakama-common/runtime"
 	"github.com/stretchr/testify/assert"
+	"github.com/wangzhaoming/nakama-common/rtapi"
+	"github.com/wangzhaoming/nakama-common/runtime"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/encoding/protojson"

@@ -17,7 +17,7 @@ package server
 import (
 	"context"
 
-	"github.com/heroiclabs/nakama-common/runtime"
+	"github.com/wangzhaoming/nakama-common/runtime"
 )
 
 func NewRuntimeGoContext(ctx context.Context, node, version string, env map[string]string, mode RuntimeExecutionMode, headers, queryParams map[string][]string, sessionExpiry int64, userID, username string, vars map[string]string, sessionID, clientIP, clientPort, lang string) context.Context {
